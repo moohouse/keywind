@@ -9,6 +9,7 @@ export default {
   plugins: [require('@tailwindcss/forms')],
   theme: {
     extend: {
+      darkMode: 'class',
       colors: {
         primary: colors.blue,
         secondary: colors.gray,
@@ -32,6 +33,9 @@ export default {
           twitter: '#1DA1F2',
         },
       },
+    },
+    fontFamily: {
+      sans: ['IBM Plex Sans KR', 'sans-serif']
     },
   },
 } satisfies Config;
