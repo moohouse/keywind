@@ -11,9 +11,8 @@ export default {
     extend: {
       darkMode: 'class',
       colors: {
-        primary: colors.blue,
-        secondary: colors.gray,
-
+        primary: colors.gray,
+        secondary: colors.blue,
         provider: {
           apple: '#000000',
           bitbucket: '#0052CC',
